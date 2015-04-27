@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="./styles.css">
+	<link rel="stylesheet" href="../static/styles.css">
 	<title>Balloonicorn.ly Job Portal</title>
 </head>
 <body>
 	<h2>Join The Balloonicorn Army</h2>
-	<p id="jobdescription">We are a team of "crazy ones, the misfits, the rebels, the troublemakers, the round pegs in the square holes... the ones who see things differently" -- and we're looking for engineers to join our team.  If you love to learn and work hard.  Please fill out the job application.  We'd love to hear form you! </p>
-	<form action="/application" method="POST">
+	<p id="jobdescription">We are a team of "crazy ones, the misfits, the rebels, the troublemakers, the round pegs in the square holes... the ones who see things differently" -- and we're looking for engineers to join our team.  If you love to learn and work hard,  please fill out the job application.  We'd love to hear from you! </p>
+	<form action="/application" method="post">
 		<label for="firstname">First Name:</label>
 		<input type="text" name="firstname" id="field-firstname">
 		<label for="lastname">Last Name:</label>
@@ -16,9 +16,9 @@
 		<input type="text" name="salary" id="field-salary">
 		<label for="position">Position:</label>
 			<select name="position">
-				<option value="Software_Engineer">Software Engineer</option>
-				<option value="QA_Engineer">QA Engineer</option>
-				<option value="Product_Manager">Product Manager</option>
+				<option value="Software Engineer">Software Engineer</option>
+				<option value="QA Engineer">QA Engineer</option>
+				<option value="Product Manager">Product Manager</option>
 			</select>
 		<input type="submit">
 	</form>
