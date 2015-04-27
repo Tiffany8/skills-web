@@ -1,0 +1,44 @@
+
+body {
+	background-color: #7B1FA2;
+	background-image:url("http://fc09.deviantart.net/fs71/i/2014/171/4/3/balloonicorn_army_by_kirby62626-d7n8f8n.png");
+	font-family: Arial;
+	color:white;
+}
+
+h2 {
+	text-align: center;
+
+}
+
+#jobdescription {
+	
+	border: 5px dotted #7B1FA2;
+	padding: 5px;
+/*	border-style: dotted;
+	border-width: 5px;
+	border-color: #E1BEE7;*/
+	margin: 20px 50px;
+	text-align: center;
+	background-color: #B6B6B6;
+	
+}
+#field-lastname {
+	font-weight:bold;
+}
+
+input {
+	background-color:#FBC02D;
+
+}
+
+#balloonicorn_army {
+	float:left;
+	margin-right: 20px;
+}
+
+form {
+	margin-left: 620px;
+
+
+}
